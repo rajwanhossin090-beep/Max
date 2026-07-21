@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+.atmosphere {
+  background: 
+    radial-gradient(circle at 50% 30%, rgba(0, 240, 255, 0.15) 0%, transparent 60%),
+    radial-gradient(circle at 10% 90%, rgba(255, 0, 229, 0.12) 0%, transparent 40%),
+    radial-gradient(circle at 90% 20%, rgba(123, 0, 255, 0.15) 0%, transparent 50%);
+  filter: blur(80px);
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.orb-glow {
+  box-shadow: 
+    0 0 40px rgba(0, 240, 255, 0.35),
+    0 0 100px rgba(255, 0, 229, 0.25),
+    inset 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+}
+
+.glass-panel {
+  background: rgba(10, 10, 18, 0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.waveform-bar {
+  width: 4px;
+  background: linear-gradient(to top, #00F0FF, #FF00E5);
+  border-radius: 2px;
+  opacity: 0.85;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(5, 5, 5, 0.5);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0, 240, 255, 0.3);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 0, 229, 0.5);
+}
+

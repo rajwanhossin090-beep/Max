@@ -1,0 +1,6 @@
+{
+  "name": "MAX Assistant",
+  "description": "Sassy, confident real-time AI voice assistant MAX powered by Gemini Live API & Jetpack Compose Android architecture.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
